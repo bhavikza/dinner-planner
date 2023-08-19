@@ -6,3 +6,6 @@ services:
       dockerfile: Dockerfile
     container_name: dinner-planner-bot
     restart: always
+    environment:
+      - YOUR_BOT_TOKEN=<your_bot_token>
+      - CHAT_ID=<your_chat_id>
